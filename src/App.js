@@ -7,6 +7,7 @@ import News from './pages/news';
 import MyList from './pages/my-list';
 import Account from './pages/account';
 import SignUp from './pages/signup';
+import Home from './pages/home';
 
 function App() {
   return (
@@ -32,12 +33,6 @@ function App() {
   );
 }
 
-const Home = () => {
-<div>
-  <h1> 
-    Home Page JJ
-  </h1>
-</div>
-}
+
 
 export default App;

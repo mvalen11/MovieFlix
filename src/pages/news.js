@@ -9,7 +9,7 @@ const News = () => {
         alignItems: 'center'
       }}
     >
-      <h1>News</h1>
+      <h1 className = "White">News</h1>
     </div>
   );
 };

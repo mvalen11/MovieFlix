@@ -7,10 +7,10 @@ const Account = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        
       }}
     >
-      <h1>Account</h1>
+      <h1 className = "White">Account</h1>
     </div>
   );
 };

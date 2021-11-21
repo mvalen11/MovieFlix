@@ -3,14 +3,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <h1 styles = {{color: 'Green'}}>Home</h1>
+    <div className = "White">
+      <h1 >Home</h1>
+    
     </div>
   );
 };

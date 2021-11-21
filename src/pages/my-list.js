@@ -10,7 +10,7 @@ const MyList = () => {
         height: '90vh'
       }}
     >
-      <h1>My List</h1>
+      <h1 className = "White">My List</h1>
     </div>
   );
 };
