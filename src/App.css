@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Lucida Handwriting', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*background-image: url(./AppImages/Background.jpg);
+  background-size: 250mm; */
+}
