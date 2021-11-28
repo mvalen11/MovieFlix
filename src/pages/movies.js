@@ -7,9 +7,13 @@ const Movies = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        height: '',
+        color : 'white',
+        
       }}
     >
-      <h1 className = "White">Movies</h1>
+      <h1 >Movies</h1>
+      
     </div>
   );
 };
