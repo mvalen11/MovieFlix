@@ -1,19 +1,18 @@
 import React from 'react';
+import Row from '../components/Row'; 
+import requests from '../requests';
 
 const Movies = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '',
-        color : 'white',
-        
-      }}
-    >
+    <div>
       <h1 >Movies</h1>
-      
+      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/> 
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
+      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
+      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>
+      <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
+      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
+      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
     </div>
   );
 };

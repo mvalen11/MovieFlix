@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 * {
-  font-family: 'Lucida Handwriting', cursive;
+  font-family: 'Bebas Neue', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-image: url(./AppImages/Background.jpg);
   background-size: 250mm; 
+  margin: 0;
 }
 
+/* This is for some div containers but then realized
+I can just use the div callers and get the same for 
+all. haha*/
 .White{
   color : white;
 }
 
+div, h2{
+  color: white;
+  background: transparent;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./Fonts/bebas_neue/BebasNeue-Regular.ttf");
+  font-weight: bold;
+}
