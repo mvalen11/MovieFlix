@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import Row from '../components/Row'; 
 import requests from '../requests';
 import Popup from '../components/Popup';
+import Banner from '../components/Banner';
+import '../components/Rows/Row.css'
 
   const Movies = () => {
 
@@ -16,8 +18,11 @@ import Popup from '../components/Popup';
   }, [])
 
   return (
+    
     <div>
       <Popup trigger={timePopUp} setTrigger={setTimePopup}></Popup>   
+
+      <Banner/>
       <Row title="MOVIEFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} /> 
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
@@ -26,6 +31,7 @@ import Popup from '../components/Popup';
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
     </div>
+    
   );
 };
 

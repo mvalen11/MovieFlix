@@ -1,13 +1,10 @@
 import React from 'react'
 import Banner from "../components/Banner.js"
-import Popup from "../components/Popup"
 
-const Home = () => {
+function Home() {
   return (
-    <div className = "White">
+    <div>
       <Banner/>
-      
-      
     </div>
   );
 };

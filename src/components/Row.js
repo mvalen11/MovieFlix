@@ -52,7 +52,7 @@ function Row({title, fetchUrl, isLargeRow}){
             className={toggle ? 'row__posterstextvisible' : 'row__posterstext'}>
                 <h1> {"Lucifer"}</h1>  
                 <h2> {"Release Date: January 25, 2016"}</h2>
-                <p> Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape. </p>
+                <p className="postertextdesc"> Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape. </p>
             </div> 
         </div>
     )

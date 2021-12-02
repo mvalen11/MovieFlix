@@ -17,8 +17,9 @@ function Popup(props){
           <br/>
           <h3>Standard: 4:00pm, 5:00pm, 6:00pm, 7:30pm, 8:00pm </h3>
           <h3>3D: 3:30pm, 6:30pm, 7:00pm, 10:00pm, 10:30pm </h3>
+          <a className="White" href={"https://www.fandango.com/amc-roosevelt-field-8-aabqp/theater-page?date=2021-12-16"}>Buy Tickets</a>
           <br/><br/>
-          <p className="reason">*Because you clicked on movies with titles that contain "Spiderman"*</p>
+          <p>*Because you clicked on movies with titles that contain "Spiderman"*</p>
         </div>
       </div>
   ) : " " ;

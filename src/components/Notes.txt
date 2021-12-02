@@ -1,0 +1,54 @@
+This is just for to keep in track of what the heck is going on 
+
+So first things first, 
+Congrats on the progress so far. 
+
+Now we need 
+ ->   Authentication
+ ->   Profile Selection
+ ->   Sign/Sign Up pages 
+But all in the style of Disney.com
+
+We also need 
+ ->   Footer
+ ->   About us page
+To conclude the project. 
+
+I want an about us page because it'll be beneficial for us in the long run. We can use this 
+and put this in a resume. So future employers have access to this and see our work. 
+
+I smell victory...
+
+Small notes..
+-> Make the header buttons work
+    -> Start Watching 
+    -> Settings
+-> Maybe even add Spidey's pic on the popup? 
+
+Footer Information
+-> About us 
+    -> Michael Valenzuela
+    -> Raghav Khurana
+    -> Thomas Stanley
+    -> Nina Bullaro
+    -> Jason Galdamez
+    -> Rohit 
+-> Services used 
+    -> JavaScript frameworks
+       -> styled-components 5.3.3
+       -> React
+    -> Web frameworks
+       -> Express
+    -> Web servers
+       -> Express
+    -> Programming languages
+       -> Node.js
+    -> Python
+        -> Neural Networking
+-> Social Media 
+    -> Michael (Instagram)
+    -> Jason (Something)
+    -> Raghav (Instagram)
+    -> Rohit (Linkdn)
+    -> Thomas (Linkdn)
+    -> Nina (Linkdn)
