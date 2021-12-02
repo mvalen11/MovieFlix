@@ -8,19 +8,15 @@ import MyList from './pages/my-list';
 import Account from './pages/account';
 import SignUp from './pages/signup';
 import Home from './pages/home';
-import Row from './components/Row';
-import requests from './requests.js';
 
 function App() {
-  return (
-   
-<div> 
-  
+  return ( 
+<div className="thewholething"> 
     <Router>
       <div>
           <Navbar />
           <Routes>
-          <Route path="/"  element={<Home/>} />
+          <Route path="/"  exact element={<Home/>} />
           <Route path="/movies" element={<Movies/>} />
           <Route path="/news" element={<News/>} />
           <Route path='/my-list' element={<MyList/>} />

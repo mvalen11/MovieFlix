@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Row from '../components/Row'; 
 import requests from '../requests';
+import Popup from '../components/Popup';
 
-const Movies = () => {
+  const Movies = () => {
+
+  //creating button PopUp 
+  const [timePopUp, setTimePopup] = useState(false);
+  
+  //it's going to run once using the UsingEffect function
+  useEffect(() => {
+    setTimeout(() => {
+      setTimePopup(true);
+    }, 10000)
+  }, [])
+
   return (
     <div>
-      <h1 >Movies</h1>
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/> 
+      <Popup trigger={timePopUp} setTrigger={setTimePopup}></Popup>   
+      <Row title="MOVIEFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} /> 
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>

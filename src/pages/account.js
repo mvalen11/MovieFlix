@@ -2,14 +2,7 @@ import React from 'react';
 
 const Account = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        
-      }}
-    >
+    <div className="naranja">
       <h1 className = "White">Accounts g</h1>
     </div>
   );

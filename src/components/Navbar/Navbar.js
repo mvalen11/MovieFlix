@@ -1,16 +1,12 @@
 import React from 'react';
 //import {Link} from 'react-router-dom'
-import {Nav,
-    NavLink,
-    Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink} from './NavbarElements';
+import './Navbar.css'
+import {Nav,NavLink,Bars,NavMenu,NavBtn,NavBtnLink} from './NavbarElements';
 
     function Navbar() {
     return (
         <>
-            <Nav>
+            <Nav className="nav">
                 <NavLink to='/'>
                     <h1>MovieFlix</h1>
                 </NavLink>

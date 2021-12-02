@@ -1,3 +1,4 @@
+//API key and links for the TMDB (the movie data base )
 const API_KEY = "13c26828a8e872aa400fcee589a980c5";
 
 const requests = {
@@ -9,6 +10,8 @@ const requests = {
     fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
     fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
     fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
-}
+};
 
 export default requests;
+
+//https://api.themoviedb.org/3/trending/all/week?api_key=${13c26828a8e872aa400fcee589a980c5}&language=en-US

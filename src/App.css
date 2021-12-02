@@ -2,11 +2,6 @@
 
 * {
   font-family: 'Bebas Neue', sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-image: url(./AppImages/Background.jpg);
-  background-size: 250mm; 
   margin: 0;
 }
 
@@ -17,7 +12,7 @@ all. haha*/
   color : white;
 }
 
-div, h2{
+h2, h3{
   color: white;
   background: transparent;
 }
@@ -26,4 +21,17 @@ div, h2{
   font-family: "Bebas Neue";
   src: url("./Fonts/bebas_neue/BebasNeue-Regular.ttf");
   font-weight: bold;
+}
+
+/* to show that i have something going on in my pages lol
+this is for the main, news, account, and sign in pages*/
+
+.naranja{
+  height: 100vh;
+}
+
+.thewholething{
+  background-image: url(./AppImages/Background.jpg);
+  background-size: 250mm; 
+  height:inherit;
 }

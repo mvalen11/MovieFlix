@@ -1,19 +1,39 @@
 .row{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
+
 .row__posters{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    margin-left: -35px;
 }
+
+.row__posterstext{
+    background: transparent;
+    display: none;
+}
+
+.row__posterstextvisible{
+    padding: 20px;
+    font-size: 15pt;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
 .row__posters::-webkit-scrollbar{
     display:none;
 }
+
 .row__poster {
     object-fit: contain;
     width: 100%;
     max-height: 200px;
+    margin-left: 15px;
+   
 }
 
 /* hover effect */
