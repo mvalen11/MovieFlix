@@ -8,8 +8,10 @@ import MyList from './pages/my-list';
 import Account from './pages/account';
 import SignUp from './pages/signup';
 import Home from './pages/home';
+import Footer from './components/Footer'
 
 function App() {
+
   return ( 
 <div className="thewholething"> 
     <Router>
@@ -25,7 +27,9 @@ function App() {
           </Routes>  
         </div>
     </Router>
+    <Footer/>
 </div>
   );
 }
+
 export default App;

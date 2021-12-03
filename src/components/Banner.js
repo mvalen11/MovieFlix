@@ -7,6 +7,7 @@ import requests from '../requests'
 const baseurl = "https://image.tmdb.org/t/p/original/";
 
 function Banner(){
+    
     //creating and setting movie array to contain all the movie info
     const [movie, setMovie] = useState([]);
 
@@ -27,7 +28,7 @@ function Banner(){
 console.log(movie)
 
     function truncate(string, n) {
-            return string?.length > n ? string.substr(0, n-1) + '...' : string;
+        return string?.length > n ? string.substr(0, n-1) + '...' : string;
     }
 
     return (
@@ -53,7 +54,5 @@ console.log(movie)
         </header>
     )
 }
-
-
 
 export default Banner
