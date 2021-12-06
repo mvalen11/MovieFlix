@@ -1,5 +1,8 @@
 This is just for to keep in track of what the heck is going on 
 
+//13c26828a8e872aa400fcee589a980c5 (API Key)
+//movieflix-63f29.web.app
+
 So first things first, 
 Congrats on the progress so far. 
 
@@ -23,7 +26,7 @@ Small notes..
 -> Make the header buttons work
     -> Start Watching 
     -> Settings
--> Maybe even add Spidey's pic on the popup? 
+-> Maybe even add Lucifer's pic on the popup? 
 
 Footer Information
 -> About us 
@@ -52,3 +55,12 @@ Footer Information
     -> Rohit (Linkdn)
     -> Thomas (Linkdn)
     -> Nina (Linkdn)
+
+-> How do I know if the user is loggedin ?
+   -> UseEffect will listen to any Authentication state change
+      -> if it userauth exists (they are logged in)
+      -> if it doesn't exist (they are most likely not logged in)
+   -> All in the App.css 
+   -> REACT REDUX!!!! explain that! THE POWER OF REDUX
+
+Moviesney Exclusive

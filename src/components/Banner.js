@@ -3,9 +3,6 @@ import './Banner/Banner.css'
 import axios from '../axios'
 import requests from '../requests'
 
-//base url for the images
-const baseurl = "https://image.tmdb.org/t/p/original/";
-
 function Banner(){
     
     //creating and setting movie array to contain all the movie info

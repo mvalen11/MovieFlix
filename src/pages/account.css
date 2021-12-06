@@ -1,0 +1,78 @@
+.account{
+    color:white;
+    height: 100vh;
+}
+
+.account_signout{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: rgba(211, 6, 6, 0.897);
+    border: none; 
+    cursor: pointer;
+    height: 12vh;
+}
+
+.account_signout:hover{
+    background-color: white;
+    color: red;
+}
+.account_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    padding: 8%; 
+    max-width: 800px;
+    background-color:rgba(10, 10, 10, 0.897);
+    position: center;
+}
+
+.account_body > h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.account_info{
+    display: flex;
+}
+
+.account_info > div {
+    display:grid;
+}
+
+.account_details{
+    color: white;
+    margin-left: 25px; 
+    flex: 1;
+    text-align: center;
+}
+
+.account_details > h2{
+    background-color: rgb(14, 14, 14);
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.account_info > img{
+    height: 200px;
+}
+
+.account_stuff > h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.account_plans{
+    margin-top: 2000 px;
+}
