@@ -2,53 +2,81 @@ import SimpleReactFooter from "simple-react-footer";
 import React from 'react';
 
 function Footer() {
-        const description = "According to wikipedia, the cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact.";
-        const title = "Cats";
+        const description = "We want to create a Netflix like-app that will send you movie recommendations via notifications. Through the use of AI and Machine Learning, our application will be able to suggest new movie titles similar to movies or genres that the user has previously liked or selected, thus allowing it to present the user with screen times at their local movie theater. In order to complete this project, our team will be using Agile methodology with Scrum framework, along with G-Suite, Zoom, and What’s App for communication.";
+        const title = "Movieflix Idea";
         const columns = [
           {
-              title: "Resources",
+              title: "About Us",
               resources: [
                   {
-                      name: "About",
-                      link: "/about"
+                      name: "Michael",
+                      link: "/"
                   },
                   {
-                      name: "Careers",
-                      link: "/careers"
+                      name: "Raghav ",
+                      link: "/"
                   },
                   {
-                      name: "Contact",
-                      link: "/contact"
+                      name: "Thomas",
+                      link: "/"
                   },
                   {
-                      name: "Admin",
-                      link: "/admin"
+                    name: "Jason",
+                    link: "/"
+                  },
+                  {
+                    name: "Nina",
+                    link: "/"
+                  },
+                  {
+                      name: "Rohit",
+                      link: "/"
                   }
               ]
           },
           {
-              title: "Legal",
+              title: "Languages Used",
               resources: [
                   {
-                      name: "Privacy",
-                      link: "/privacy"
+                      name: "JavaScript frameworks",
+                      link: "/"
                   },
                   {
-                      name: "Terms",
+                    name: "Node JS",
+                    link: "/"
+                  },
+                  {
+                      name: "Python",
                       link: "/terms"
                   }
               ]
           },
           {
-              title: "Visit",
+              title: "Social Media",
               resources: [
                   {
-                      name: "Locations",
-                      link: "/locations"
+                      name: "Michael",
+                      link: "/"
                   },
                   {
-                      name: "Culture",
-                      link: "/culture"
+                    name: "Jason",
+                    link: "/"
+                },
+                {
+                    name: "Raghav",
+                    link: "/"
+                },
+                {
+                    name: "Rohit ",
+                    link: "/"
+                },
+                {
+                    name: "Thomas",
+                    link: "/"
+                },
+                  {
+                      name: "Nina",
+                      link: "/",
                   }
               ]
           }
@@ -60,12 +88,12 @@ function Footer() {
           title={title}
           columns={columns}
           linkedin="fluffy_cat_on_linkedin"
-          facebook="fluffy_cat_on_fb"
-          twitter="fluffy_cat_on_twitter"
-          instagram="fluffy_cat_live"
+          facebook="rk_9599"
+          twitter="rk_9599"
+          instagram="mike_valenzuela_"
           youtube="UCFt6TSF464J8K82xeA?"
           pinterest="fluffy_cats_collections"
-          copyright="white"
+          copyright="I know you are reading this"
           iconColor="white"
           backgroundColor="rgba(0, 0, 0, 0.68)"
           fontColor="white"

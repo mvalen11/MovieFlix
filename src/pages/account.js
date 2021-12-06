@@ -4,7 +4,6 @@ import { auth } from '../firebase';
 import { selectUser } from '../userRedux/userSlice';
 import './account.css';
 
-
 function Account() {
   //Selecting user from the store
   const user = useSelector(selectUser);
@@ -19,6 +18,7 @@ function Account() {
           />
           <div className="account_details">
             <h2>Email: {user.email}</h2>
+            <button  className="account_signout"> <a href="/quiz"  className="account_signout">Take Profile Quiz </a></button>  
             <div className="account_stuff"> 
               <h3>  </h3>
             </div> 

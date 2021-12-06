@@ -1,9 +1,12 @@
 import React from 'react';
 import './nav.css';
+import { auth } from '../firebase';
+import { selectUser } from '../userRedux/userSlice';
+import { useSelector } from 'react-redux';
 
 
-function nav() {
-
+function Nav() {
+const user = useSelector(selectUser);
 return (
 <div class="navbar">
     <nav class="navbar">
@@ -12,15 +15,13 @@ return (
             <li class="nav-items"><a href="/">Home</a></li>
             <li class="nav-items"><a href="/movies">Movies</a></li>
             <li class="nav-items"><a href="/account">Account</a></li>
-            <li class="nav-items"><a href="/">premium</a></li>
         </ul>
-
         <div class="right-container">
-            <button class="sub-btn">sign out</button>
+            <button onClick={() => auth.signOut()} class="sub-btn">sign out</button>
         </div>
     </nav>
 </div>
 );
 }
 
-export default nav;
+export default Nav;

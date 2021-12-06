@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
-import Navbar from './components/Navbar/Navbar.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Movies from './pages/movies';
 import News from './pages/news';
-import Profile from './pages/profile';
+import Quiz from './pages/quiz';
 import Account from './pages/account';
 import Home from './pages/home';
 import Footer from './components/Footer';
@@ -55,7 +54,7 @@ function App() {
           <Route path="/"  exact element={<Home/>} />
           <Route path="/movies" element={<Movies/>} />
           <Route path="/news" element={<News/>} />
-          <Route path='/profile' element={<Profile/>} />
+          <Route path='/quiz' element={<Quiz/>} />
           <Route path='/account' element={<Account/>} />
           <Route path='/sign-up' element={<Login/>} />
           </Routes>  

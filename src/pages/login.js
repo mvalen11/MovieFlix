@@ -6,18 +6,14 @@ import SignUp from './signup'
 function Login() {
     const [signIn, setSignIn] = useState(false);
 
-
     return <div className="Login">
-        
         <div className="Login_background">
            <button onClick={() => setSignIn(true)}
             className="login_button">
                 Sign In
             </button>
-
             <div className="loginScreen_gradient" />
         </div>
-
         <div className="login_Body">
         {signIn ? (
             <SignUp/>
